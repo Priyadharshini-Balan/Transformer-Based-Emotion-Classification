@@ -17,6 +17,7 @@ The goal is to compare three major NLP modeling approaches:
 Each model is trained, validated, and evaluated using **accuracy** **confusion matrices**.
 
 ---
+'''
 emotion-classification/
 │
 ├── README.md                 # Project documentation
@@ -31,7 +32,7 @@ emotion-classification/
     ├── fcnn_cm.png
     ├── lstm_cm.png
     └── distilbert_cm.png
-
+'''
 
 
 ---
