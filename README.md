@@ -41,7 +41,6 @@ Project Structure/
 - HuggingFace tokenization for DistilBERT  
 - Model comparison using:  
   - **Validation accuracy**  
-  - **Precision & recall**  
   - **Confusion matrices**  
 
 ---
