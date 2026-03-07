@@ -18,20 +18,16 @@ Each model is trained, validated, and evaluated using **accuracy** **confusion m
 
 ---
 ```
-emotion-classification/
+Project-Structure/
 │
 ├── README.md                 # Project documentation
-├── emotion_classification.ipynb   # Your single notebook
-│
-├── requirements.txt          # (Optional) Python dependencies
-│
-├── data/                     # (Optional) Raw or sample data
-│   └── dataset.csv
-│
-└── images/                   # (Optional) Confusion matrices, plots
-    ├── fcnn_cm.png
-    ├── lstm_cm.png
-    └── distilbert_cm.png
+├── emotion_classification.ipynb   # Main notebook
+├── requirements.txt          # Python dependencies
+└── data/
+    ├── test.txt
+    └── train.txt
+
+
 ```
 
 
