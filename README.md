@@ -18,14 +18,11 @@ Each model is trained, validated, and evaluated using **accuracy** **confusion m
 
 ---
 Project Structure/
-│
 ├── README.md                 # Project documentation
 ├── emotion_classification.ipynb   # Notebook
-│
 ├── requirements.txt          # Python dependencies
-│
 ├── data/                     # Raw or sample data
-│   └── dataset.csv
+ └── dataset.csv
 
 
 ---
