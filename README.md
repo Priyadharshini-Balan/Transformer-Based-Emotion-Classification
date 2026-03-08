@@ -106,7 +106,7 @@ Transformers use the raw cleaned text without lemmatization or stopword removal.
 |---------------|---------------------|
 | FCNN (TF‑IDF) |      ~ 0.8618       |
 | BiLSTM        |      ~ 0.8633       |
-| DistilBERT    |        0.9332       | 
+| DistilBERT    |         0.9332      | 
 
 ### Confusion Matrices  
 Confusion matrices were plotted for all models to analyze class‑wise performance.  
