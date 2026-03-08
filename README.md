@@ -49,7 +49,7 @@ Project-Structure/
 
 ---
 
-## 📊 Dataset  
+## Dataset  
 The dataset contains short text samples labeled with one of six emotions.  
 After cleaning and splitting:
 
@@ -61,7 +61,7 @@ Class balance was checked to ensure fair evaluation.
 
 ---
 
-## 🧼 Preprocessing  
+## Preprocessing  
 A custom cleaning function was applied:
 
 - Lowercase text  
@@ -76,21 +76,21 @@ Transformers use the raw cleaned text without lemmatization or stopword removal.
 
 ---
 
-## 🧪 Models
+## Models
 
-### 1️⃣ TF‑IDF + Fully Connected Neural Network  
+### Model 1: TF‑IDF with Fully Connected Neural Network(FCNN)
 - 5,000‑word TF‑IDF vocabulary  
 - Two dense layers with dropout  
 - Good baseline accuracy    
 - Struggles with contextual understanding  
 
-### 2️⃣ Bidirectional LSTM  
+### Model 2:  Bidirectional LSTM  
 - Tokenized + padded sequences  
 - Embedding layer (100‑dim)  
 - BiLSTM (64 units)  
 - Captures sequential patterns and context  
 
-### 3️⃣ DistilBERT Transformer  
+### Model 3:  DistilBERT Transformer  
 - Fine‑tuned using HuggingFace  
 - Subword tokenization  
 - Low learning rate (5e‑5)  
@@ -99,26 +99,25 @@ Transformers use the raw cleaned text without lemmatization or stopword removal.
 
 ---
 
-## 📈 Results
+## Results
 
-### ✔️ Validation Accuracy Comparison  
-| Model         | Accuracy |
-|---------------|----------|
-| FCNN (TF‑IDF) |     |
-| BiLSTM        |   |
-| DistilBERT    |   | 
+### Validation Accuracy Comparison  
+| Model         | Validation Accuracy |
+|---------------|---------------------|
+| FCNN (TF‑IDF) |      ~ 0.8618       |
+| BiLSTM        |      ~ 0.8633       |
+| DistilBERT    |        0.9332       | 
 
-### ✔️ Confusion Matrices  
+### Confusion Matrices  
 Confusion matrices were plotted for all models to analyze class‑wise performance.  
 DistilBERT showed the cleanest diagonal and the least confusion between similar emotions.
 
 ---
 
-## 🧩 Key Insights  
+## Key Insights and highlights of Pre-trained model
 - Classical models struggle with nuanced emotional cues.  
 - LSTMs improve performance by capturing sequential dependencies.  
-- Transformers outperform both by leveraging deep contextual understanding.  
-- Precision and recall reveal weaknesses that accuracy alone hides.  
+- Transformers outperform both by leveraging deep contextual understanding.   
 - DistilBERT provides the most reliable and balanced predictions.
 
 
