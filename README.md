@@ -17,19 +17,18 @@ The goal is to compare three major NLP modeling approaches:
 Each model is trained, validated, and evaluated using **accuracy** **confusion matrices**.
 
 ---
+
 ```
 Project-Structure/
 │
-├── README.md                 # Project documentation
-├── emotion_classification.ipynb   # Main notebook
-├── requirements.txt          # Python dependencies
-└── data/
-    ├── test.txt
-    └── train.txt
-
-
+├── data/                          # text data as train and test file in .txt
+│   ├── train.txt
+│   └── test.txt
+│
+├── emotion_classification.ipynb   # Main notebook for training and evaluation
+├── README.md                      # Project documentation
+└── requirements.txt               # Python dependencies
 ```
-
 
 ---
 
