@@ -22,11 +22,11 @@ Each model is trained, validated, and evaluated using **accuracy** **confusion m
 Project-Structure/
 │
 ├── data/                          # text data as train and test file in .txt
-│   ├── train.txt
-│   └── test.txt
+│   ├── test.txt
+│   └── train.txt
 │
-├── emotion_classification.ipynb   # Main notebook for training and evaluation
 ├── README.md                      # Project documentation
+├── emotion_classification.ipynb   # Main notebook for training and evaluation models 
 └── requirements.txt               # Python dependencies
 ```
 
