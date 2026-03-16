@@ -5,4 +5,5 @@ tensorflow
 matplotlib
 seaborn
 nltk
-transformers
+transformers - DistilBERT
+
