@@ -4,17 +4,17 @@
 ---
 
 ## Overview  
-This project builds an end‑to‑end **emotion classification system** that predicts six emotions from text data:
+This project builds an end‑to‑end **emotion classification system** that predicts six emotions from text data
 
 **sadness, joy, love, anger, fear, surprise**
 
-The goal is to compare three major NLP modeling approaches:
+The goal is to compare three major NLP modeling approaches
 
 1. **TF‑IDF + Fully Connected Neural Network (FCNN)**  
 2. **Bidirectional LSTM with Embeddings**  
 3. **DistilBERT Transformer (fine‑tuned)**  
 
-Each model is trained, validated, and evaluated using **accuracy** **confusion matrices**.
+Each model is trained, validated, and evaluated using **accuracy** **confusion matrices**
 
 ---
 
@@ -108,16 +108,16 @@ Transformers use the raw cleaned text without lemmatization or stopword removal.
 | DistilBERT    |        0.9332       | 
 
 ### Confusion Matrices  
-Confusion matrices were plotted for all models to analyze class‑wise performance.  
-DistilBERT showed the cleanest diagonal and the least confusion between similar emotions.
+Confusion matrices were plotted for all models to analyze class‑wise performance  
+DistilBERT showed the cleanest diagonal and the least confusion between similar emotions
 
 ---
 
 ## Key Insights and highlights of Pre-trained model
-- Classical models struggle with nuanced emotional cues.  
-- LSTMs improve performance by capturing sequential dependencies.  
-- Transformers outperform both by leveraging deep contextual understanding.   
-- DistilBERT provides the most reliable and balanced predictions.
+- Classical models struggle with nuanced emotional cues  
+- LSTMs improve performance by capturing sequential dependencies
+- Transformers outperform both by leveraging deep contextual understanding   
+- DistilBERT provides the most reliable and balanced predictions
 
 
 
