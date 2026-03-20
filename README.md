@@ -61,7 +61,7 @@ Class balance was checked to ensure fair evaluation.
 ---
 
 ## Preprocessing  
-A custom cleaning function was applied:
+A custom cleaning function was applied
 
 - Lowercase text  
 - Remove punctuation  
