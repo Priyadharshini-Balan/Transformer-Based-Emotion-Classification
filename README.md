@@ -50,11 +50,11 @@ Project-Structure/
 
 ## Dataset  
 The dataset contains short text samples labeled with one of six emotions.  
-After cleaning and splitting:
+After cleaning and splitting
 
 - **80%** training  
 - **20%** validation  
-- Separate **test set** for final evaluation  
+- Splitted into separate **test set** for final evaluation  
 
 Class balance was checked to ensure fair evaluation.
 
