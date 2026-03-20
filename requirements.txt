@@ -5,7 +5,7 @@ tensorflow
 matplotlib
 seaborn
 nltk
-transformers - DistilBERT
+transformers 
 re
 tf_keras
 
