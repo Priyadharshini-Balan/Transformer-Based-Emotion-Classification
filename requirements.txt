@@ -7,4 +7,5 @@ seaborn
 nltk
 transformers - DistilBERT
 re
+tf_keras
 
