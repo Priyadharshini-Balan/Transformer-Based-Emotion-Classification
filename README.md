@@ -1,6 +1,5 @@
 # Emotion Classification Using Classical ML(FCNN), LSTM, and Transformers  
 *A comparative study of NLP model families on multi‑class emotion detection*
-
 ---
 
 ## Overview  
@@ -15,7 +14,6 @@ The goal is to compare three major NLP modeling approaches
 3. **DistilBERT Transformer (fine‑tuned)**  
 
 Each model is trained, validated, and evaluated using **accuracy** **confusion matrices**
-
 ---
 
 ```
