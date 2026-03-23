@@ -15,7 +15,6 @@ The goal is to compare three major NLP modeling approaches
 
 Each model is trained, validated, and evaluated using **accuracy** **confusion matrices**
 ---
-
 ```
 Project-Structure/
 │
@@ -27,7 +26,6 @@ Project-Structure/
 ├── emotion_classification.ipynb   # Main notebook for training and evaluation models 
 └── requirements.txt               # Python dependencies
 ```
-
 ---
 
 ## Key Features  
