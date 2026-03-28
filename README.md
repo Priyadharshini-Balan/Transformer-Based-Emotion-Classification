@@ -50,7 +50,7 @@ After cleaning and splitting
 
 - **80%** training  
 - **20%** validation  
-- Splitted into separate **test set** for final evaluation  
+- Splitted into separate **validation set** for final evaluation  
 
 Class balance was checked to ensure fair evaluation.
 
