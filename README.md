@@ -41,9 +41,7 @@ Project-Structure/
 - Model comparison using:  
   - **Validation accuracy**  
   - **Confusion matrices**  
-
 ---
-
 ## Dataset  
 The dataset contains short text samples labeled with one of six emotions.  
 After cleaning and splitting
