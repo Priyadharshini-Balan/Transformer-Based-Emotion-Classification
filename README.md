@@ -112,7 +112,7 @@ DistilBERT showed the cleanest diagonal and the least confusion between similar 
 ## Key Insights and highlights of Pre-trained model
 - Classical models struggle with nuanced emotional cues  
 - LSTMs improve performance by capturing sequential dependencies
-- Transformers outperform both by leveraging deep contextual understanding   
+- Transformers outperform both by leveraging deep contextual understanding and sequential dependencies  
 - DistilBERT provides the most reliable and balanced predictions
 
 
