@@ -1,5 +1,5 @@
 # Emotion Classification Using Classical ML(FCNN), LSTM, and Transformers  
-*A comparative study of NLP model families on multi‑class emotion detection*
+*A comparative study of NLP model on multi‑class emotion detection*
 ---
 
 ## Overview  
